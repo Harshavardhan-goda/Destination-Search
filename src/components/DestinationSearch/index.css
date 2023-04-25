@@ -1,0 +1,39 @@
+.search-card {
+  height: 30px;
+  align-self: center;
+  border: none;
+  background-color: #f1f5f9;
+  outline: none;
+}
+.heading {
+  text-align: center;
+}
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.list-card {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-between;
+}
+.search-icon {
+  height: 20px;
+}
+.input-card {
+  display: flex;
+  align-self: center;
+  padding: 8px;
+  background-color: #f1f5f9;
+  width: 210px;
+  height: 40px;
+}
